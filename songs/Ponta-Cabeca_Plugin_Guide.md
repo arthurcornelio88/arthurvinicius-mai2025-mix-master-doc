@@ -105,6 +105,13 @@ Work from **center & low frequencies** toward **highs & stereo**:
    - Recovery: medium-slow to keep natural decay
    - Adds tape-like warmth and cohesion
 
+6. **ReaComp** (Optional peak control)
+- Threshold: ajuster pour que les pics déclenchent ~2–3 dB de réduction
+- Ratio: `3:1`
+- Attack: `10 ms` (assez rapide pour attraper les pics, mais pas trop pour garder le naturel)
+- Release: `80–100 ms`
+- Knee: `2 dB` (soft knee pour éviter l’écrasement brutal)
+- Output Gain: ajuster pour correspondre au niveau pré-compression
 
 ---
 
