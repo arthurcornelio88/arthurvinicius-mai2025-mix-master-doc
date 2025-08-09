@@ -1,0 +1,18 @@
+<REAPER_FXCHAIN>
+SHOW 1
+LASTSEL 0
+DOCKED 0
+BYPASS 0 0 0
+VST "VST: bx_cleansweep" bx_cleansweep.dll 0
+PRESETNAME "HPF 80Hz"
+PARAMBASE 0 0.15      // High-pass below ~80Hz to remove rumble
+VST "VST: TDR Nova" TDRNova.dll 0
+PRESETNAME "Guitar EQ"
+PARAMBASE 0 0.15      // HPF ~80Hz
+PARAMBASE 1 -0.20     // Cut 3–4kHz if harsh
+PARAMBASE 2 0.10      // Small boost at 2kHz for presence
+VST "VST: CamelCrusher" CamelCrusher.dll 0
+PRESETNAME "Guitar Warmth"
+PARAMBASE 0 0.10      // Tube mode, low drive (~10–15%)
+PARAMBASE 1 0.05      // Slight compression
+>

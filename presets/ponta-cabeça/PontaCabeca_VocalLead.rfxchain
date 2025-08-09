@@ -1,0 +1,28 @@
+<REAPER_FXCHAIN>
+SHOW 1
+LASTSEL 0
+DOCKED 0
+BYPASS 0 0 0
+VST "VST: bx_cleansweep" bx_cleansweep.dll 0
+PRESETNAME "HPF 80Hz"
+PARAMBASE 0 0.15
+VST "VST: Spitfish" Spitfish.dll 0
+PRESETNAME "Vocal De-ess"
+PARAMBASE 0 0.35
+VST "VST: TDR Nova" TDRNova.dll 0
+PRESETNAME "Vocal EQ"
+PARAMBASE 0 0.10   // HPF @ 80Hz
+PARAMBASE 1 -0.20  // Cut 250-400Hz
+PARAMBASE 2 -0.15  // Cut 3kHz if harsh
+VST "VST: GlueReeds1" GlueReeds1.dll 0
+PRESETNAME "Vocal Compression"
+PARAMBASE 0 3.00   // Ratio 3:1
+PARAMBASE 1 0.25   // Attack ~25ms
+PARAMBASE 2 0.12   // Release ~120ms
+PARAMBASE 3 -3.00  // Gain reduction ~ -3dB
+VST "VST: OrilRiver" OrilRiver.dll 0
+PRESETNAME "Plate Reverb Short"
+PARAMBASE 0 0.20   // Pre-delay 20ms
+PARAMBASE 1 0.35   // Decay ~1.2s
+PARAMBASE 2 0.15   // Wet level (via send bus)
+>

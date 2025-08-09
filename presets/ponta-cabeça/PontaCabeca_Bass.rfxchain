@@ -1,0 +1,20 @@
+<REAPER_FXCHAIN>
+SHOW 1
+LASTSEL 0
+DOCKED 0
+BYPASS 0 0 0
+VST "VST: bx_cleansweep" bx_cleansweep.dll 0
+PRESETNAME "LPF 8kHz"
+PARAMBASE 1 0.80      // Low-pass above ~8kHz
+VST "VST: TDR Nova" TDRNova.dll 0
+PRESETNAME "Bass EQ"
+PARAMBASE 0 0.00      // Keep sub-lows
+PARAMBASE 1 0.25      // Boost 60–100Hz (+2dB)
+PARAMBASE 2 -0.20     // Cut 250Hz (-2dB) to reduce mud
+VST "VST: GlueReeds1" GlueReeds1.dll 0
+PRESETNAME "Bass Compression"
+PARAMBASE 0 4.00      // Ratio 4:1
+PARAMBASE 1 0.20      // Medium attack (~20ms)
+PARAMBASE 2 0.15      // Medium release (~150ms)
+PARAMBASE 3 -4.00     // Gain reduction ~ -4dB
+>

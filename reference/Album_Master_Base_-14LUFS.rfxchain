@@ -1,0 +1,32 @@
+<REAPER_FXCHAIN>
+SHOW 1
+LASTSEL 0
+DOCKED 0
+BYPASS 0 0 0
+VST "VST: GlueReeds1" GlueReeds1.dll 0
+PRESETNAME "Master Bus Compression"
+PARAMBASE 0 2.00      // Ratio 2:1
+PARAMBASE 1 0.30      // Attack ~30ms
+PARAMBASE 2 0.10      // Release ~100ms
+PARAMBASE 3 -1.50     // Gain reduction ~ -1.5dB
+
+VST "VST: TDR Nova" TDRNova.dll 0
+PRESETNAME "Master EQ"
+PARAMBASE 0 0.00      // Neutral HPF
+PARAMBASE 1 0.05      // Low shelf +1dB @ 80Hz
+PARAMBASE 2 0.05      // High shelf +1dB @ 10kHz
+
+VST "VST: FerricTDS" FerricTDS.dll 0
+PRESETNAME "Tape Glue"
+PARAMBASE 0 0.10      // Input drive 10%
+PARAMBASE 1 0.10      // Saturation warmth
+
+VST "VST: LoudMax" LoudMax.dll 0
+PRESETNAME "Limiter Streaming"
+PARAMBASE 0 -1.00     // Output ceiling -1dB
+PARAMBASE 1 -6.00     // Threshold for approx. -14 LUFS (adjust to taste)
+
+VST "VST: Youlean Loudness Meter" Youlean Loudness Meter.dll 0
+PRESETNAME "Loudness Check"
+PARAMBASE 0 0.00      // Monitor LUFS & True Peak
+>

@@ -1,0 +1,16 @@
+<REAPER_FXCHAIN>
+SHOW 1
+LASTSEL 0
+DOCKED 0
+BYPASS 0 0 0
+VST "VST: bx_cleansweep" bx_cleansweep.dll 0
+PRESETNAME "HPF 200Hz"
+PARAMBASE 0 0.40      // Cuts lows up to ~200Hz
+VST "VST: TDR Nova" TDRNova.dll 0
+PRESETNAME "Overhead EQ"
+PARAMBASE 0 0.40      // HPF ~200Hz
+PARAMBASE 1 -0.20     // Reduce 8–10kHz if cymbals are harsh
+VST "VST: StereoTouch" StereoTouch.dll 0
+PRESETNAME "Overhead Stereo Width"
+PARAMBASE 0 0.15      // Slight widening (15%)
+>

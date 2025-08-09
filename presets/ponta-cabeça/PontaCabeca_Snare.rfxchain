@@ -1,0 +1,23 @@
+<REAPER_FXCHAIN>
+SHOW 1
+LASTSEL 0
+DOCKED 0
+BYPASS 0 0 0
+VST "VST: bx_cleansweep" bx_cleansweep.dll 0
+PRESETNAME "HPF 100Hz"
+PARAMBASE 0 0.20
+VST "VST: TDR Nova" TDRNova.dll 0
+PRESETNAME "Snare EQ"
+PARAMBASE 0 0.20   // HPF @ 100Hz
+PARAMBASE 1 -0.30  // Cut 400Hz
+PARAMBASE 2 0.30   // Boost 5kHz for snap
+VST "VST: Transpire" Transpire.dll 0
+PRESETNAME "Snare Transient"
+PARAMBASE 0 0.10   // Attack +10%
+PARAMBASE 1 0.00   // Sustain 0%
+VST "VST: OldSkoolVerb" OldSkoolVerb.dll 0
+PRESETNAME "Short Plate"
+PARAMBASE 0 0.10   // Pre-delay 10ms
+PARAMBASE 1 0.25   // Decay 0.6–0.8s
+PARAMBASE 2 0.15   // Wet level (via send bus)
+>
