@@ -144,14 +144,6 @@ Work from **center & low frequencies** toward **highs & stereo**:
 
 ---
 
-Here’s a refined markdown version for your funky, articulated bass with both GlueReeds1 and ReaComp included.
-
----
-
-Got it — here’s the bass section in markdown without **GlueReeds1**, using only RX 11, bx\_cleansweep, TDR Nova, and ReaComp for peak control.
-
----
-
 ### 🎸 5. Bass (Funky, Articulated — Slaps + Mixed Note Lengths)
 
 1. **iZotope RX 11 De-click**
@@ -177,8 +169,6 @@ Got it — here’s the bass section in markdown without **GlueReeds1**, using o
    * Release: `80–100 ms` (returns to zero between notes)
    * Knee: `2 dB` (smooth onset)
    * Output Gain: adjust to match pre-compression loudness
-
-Perfect — here’s your **Kick & Bass Gain Balance** subsection in markdown, ready to paste into your reference doc under your bass section.
 
 ---
 
