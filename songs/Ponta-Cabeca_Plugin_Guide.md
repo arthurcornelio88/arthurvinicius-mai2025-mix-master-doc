@@ -79,13 +79,32 @@ Work from **center & low frequencies** toward **highs & stereo**:
 
 ---
 
-### 🥁 3. Snare
+### 🥁 3. Snare (Brush Hits)
 
-1. *RX 11 De-click* — Sens: `2.0`
-2. *bx\_cleansweep V2* — HPF @ `120 Hz`
-3. *TDR Nova* — Boost `200 Hz` `+2–3 dB`, Cut `250–350 Hz` `-2 dB`, Boost `4–6 kHz` `+3–4 dB`
-4. *Transpire* — Attack `+25%`, Sustain `-10%`
-5. *FerricTDS* — Drive `+1.5–2.0 dB`
+1. **iZotope RX 11 De-click**
+   - Sensitivity: `2.0`
+   - Removes digital clicks or small transient artifacts.
+
+2. **bx_cleansweep V2**
+   - HPF: `120 Hz` (remove sub rumble without thinning body)
+   - LPF: leave open, or set to ~12 kHz if cymbal bleed is harsh
+   - Input Gain: `0 dB`
+
+3. **TDR Nova**
+   - Boost `200 Hz`: `+2 to +3 dB` (adds warmth/body to brush texture)
+   - Cut `250–350 Hz`: `-2 dB` (reduces muddiness from the shell)
+   - Boost `4–6 kHz`: `+3 to +4 dB` (enhances brush swipe definition)
+   - Optional: gentle boost at `10–12 kHz` for extra air if needed
+
+4. **Transpire** (Transient Shaper)
+   - Attack: `+20 to +25%` (adds articulation without making it too “stick-like”)
+   - Sustain: `-10%` (reduces excess ring and room bleed)
+
+5. **FerricTDS**
+   - Drive: `+1.5 to +2.0 dB`
+   - Recovery: medium-slow to keep natural decay
+   - Adds tape-like warmth and cohesion
+
 
 ---
 
