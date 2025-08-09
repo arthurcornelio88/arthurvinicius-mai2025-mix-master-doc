@@ -24,9 +24,7 @@ Work from **center & low frequencies** toward **highs & stereo**:
 
 1. **Kick** — foundation, low-end punch
 2. **Snare** — rhythmic articulation, body
-3. **Toms** *(if present)* — fill frequency spectrum
-4. **Overheads** — stereo image & cymbals
-5. **Room mics** *(if recorded)* — depth & space
+3. **Overheads** — stereo image & cymbals
 
 💡 **For Ponta-Cabeça:**
 
