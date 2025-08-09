@@ -56,25 +56,26 @@ Work from **center & low frequencies** toward **highs & stereo**:
 
 2. **bx\_cleansweep V2**
 
-   * **HPF:** `20 Hz` (remove unnecessary sub-bass)
-   * **LPF:** `8 kHz` (remove unwanted highs and leave space for cymbals)
+   * **HPF**: `20 Hz` (remove unnecessary sub-bass)
+   * **LPF**: `8 kHz` (remove unwanted highs and leave space for cymbals)
    * Input Gain: `0 dB` (adjust if needed)
 
-3. **TDR Nova**
+3. **TDR Nova** (EQ)
 
-   * **HPF:** 20 Hz, 24 dB/oct (clean subsonic rumble)
-   * **Band 1:** 70 Hz, Q `1.0`, Gain `+3.5 dB` (boost low-end punch)
-   * **Band 2:** 250 Hz, Q `1.2`, Gain `-3.0 dB` (reduce muddiness)
-   * **Band 3:** 3.5 kHz, Q `1.0`, Gain `+2.5 dB` *(optional for click/presence)*
-   * **LPF:** 8 kHz, 24 dB/oct (focus energy in kick range)
-   * *(Optional dynamics)* Threshold `-20 dB`, Ratio `2:1`, Attack `20 ms`, Release `200 ms` if low end is inconsistent
+   * Boost `60–80 Hz`: `+3 to +4 dB` (kick fundamental)
+   * Cut `250 Hz`: `-2 to -3 dB` (reduce muddiness)
+   * Optional: Boost `3–4 kHz` `+2–3 dB` for more click/presence
 
-4. **GlueReeds1** (compression)
+4. **ReaComp** (compression)
 
+   * Threshold: Adjust until strong hits cause **-4 to -5 dB** gain reduction
    * Ratio: `4:1`
-   * Attack: `15 ms`
+   * Attack: `15 ms` (keeps initial punch)
    * Release: `100 ms`
-   * Gain Reduction: `-4 to -5 dB`
+   * Knee: `0.0 dB` (sharp compression)
+   * RMS size: `5 ms`
+   * Auto release: Off
+   * Output gain: Adjust to match pre-compression loudness
 
 ---
 
