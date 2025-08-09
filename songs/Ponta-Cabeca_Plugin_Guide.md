@@ -115,12 +115,32 @@ Work from **center & low frequencies** toward **highs & stereo**:
 
 ---
 
-### 🥁 4. Overheads
+### 🥁 4. Overheads (Stereo Pair)
 
-1. *RX 11 De-click* — Sens: `1.5`
-2. *bx\_cleansweep V2* — HPF @ `250 Hz`
-3. *TDR Nova* — Cut `4–5 kHz` `-2 dB` (if harsh), opt. Boost `12–14 kHz` `+2 dB`
-4. *FerricTDS* — Drive `+1.0 dB`
+1. **iZotope RX 11 De-click**
+
+   * Sensitivity: `1.5`
+
+2. **bx\_cleansweep V2**
+
+   * HPF: `250 Hz` (remove low rumble and bleed)
+
+3. **TDR Nova**
+
+   * Cut `4–5 kHz`: `-2 dB` if harsh
+   * Boost `12–14 kHz`: `+2 dB` for shimmer (optional)
+
+4. **FerricTDS**
+
+   * Drive: `+1.0 dB`
+
+---
+
+#### 🎧 Simple Stereo Tip
+
+* Pan one overhead hard left (`100% L`) and the other hard right (`100% R`).
+* If it feels too wide, bring each in a bit (e.g., `80% L` / `80% R`).
+* Don’t touch phase or delay — just pan and listen.
 
 ---
 
