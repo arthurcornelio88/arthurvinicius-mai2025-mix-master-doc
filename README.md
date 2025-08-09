@@ -84,6 +84,7 @@ Each song sheet contains:
 ## 6. Using the Presets
 
 ### Mixing
+0. Place your FX Chain in `<User>/AppData/Roaming/REAPER/FXChains`
 1. Open the track in Reaper.
 2. Click **FX** → right-click inside FX chain window → **Add FX Chain...**
 3. Load the preset matching the instrument track from the song sheet.
