@@ -1,126 +1,120 @@
-# 🎛️ Detailed Plugin & Parameter Guide — "Ponta-Cabeça"
+# 🎛️ Detailed Mixing & Plugin Guide — *Ponta-Cabeça*
 
-This guide details **exact plugin order and settings** for each track in *Ponta-Cabeça*.
-It complements the **Mix & Master Sheet** and should be used when manually inserting plugins into Reaper if `.rfxchain` files are not loaded.
-
----
-
-## 🎤 1. Vocal Lead
-
-1. **iZotope RX 11 De-click**
-   - Algorithm: *Single-band*
-   - Sensitivity: `3.0`
-   - Click widening: `0 ms`
-
-2. **bx_cleansweep V2**
-   - HPF: `80 Hz`
-
-3. **SPITFISH** (de-esser)
-   - Sense: `5–6` (reduce sibilance without dullness)
-   - Tune to match sibilant frequency (~6–7 kHz)
-
-4. **TDR Nova** (EQ)
-   - HPF @ 80 Hz
-   - Cut 250–400 Hz: `-2 to -4 dB` (mud control)
-   - Cut 3 kHz: `-2 dB` (if harsh)
-   - Boost 12 kHz: `+1–2 dB` (air)
-
-5. **GlueReeds1** (compression)
-   - Ratio: `3:1`
-   - Attack: `25 ms`
-   - Release: `120 ms`
-   - GR: `~ -3 dB`
-
-6. **OrilRiver** (plate reverb, via send)
-   - Pre-delay: `20 ms`
-   - Decay: `1.2 s`
-   - Wet: `15–20%`
-
-7. **Stereo Touch** (optional)
-   - Width: `40–50%`
+This document combines the **step-by-step mixing order**, **instrument-specific plugin settings**, and **workflow notes** for *Ponta-Cabeça*.
+It complements the **Mix & Master Sheet** and is designed for cases where `.rfxchain` files are not loaded, allowing manual setup in Reaper.
 
 ---
 
-## 🥁 2. Snare
+## 📋 Mixing Workflow Order
 
-1. **RX 11 De-click** — Sensitivity `2.0`
-2. **bx_cleansweep V2** — HPF @ 120 Hz
-3. **TDR Nova**
-   - Boost 200 Hz: `+2–3 dB` (body)
-   - Cut 250–350 Hz: `-2 dB`
-   - Boost 4–6 kHz: `+3–4 dB` (crack)
-4. **Transpire** (transient shaper)
-   - Attack: `+25%`
-   - Sustain: `-10%`
-5. **FerricTDS** — Drive: `+1.5–2.0 dB`
+### Global Order
+
+1. **Drums**
+2. **Bass**
+3. **Guitars / Harmonic Instruments**
+4. **Vocals**
+5. **Additional Elements / FX**
+6. **Automation & Finishing Touches**
 
 ---
 
-## 🥁 3. Kick
+### 🥁 Drum Internal Order
 
-1. **RX 11 De-click** — Sensitivity `2.0`
-2. **bx_cleansweep V2** — LPF @ 8 kHz
-3. **TDR Nova**
-   - Boost 60–80 Hz: `+3–4 dB`
-   - Cut 250 Hz: `-2–3 dB`
-   - Optional boost 3–4 kHz for click
-4. **GlueReeds1**
-   - Ratio: `4:1`
-   - Attack: `15 ms`
-   - Release: `100 ms`
-   - GR: `-4 to -5 dB`
+Work from **center & low frequencies** toward **highs & stereo**:
 
----
+1. **Kick** — foundation, low-end punch
+2. **Snare** — rhythmic articulation, body
+3. **Toms** *(if present)* — fill frequency spectrum
+4. **Overheads** — stereo image & cymbals
+5. **Room mics** *(if recorded)* — depth & space
 
-## 🥁 4. Overheads
+💡 **For Ponta-Cabeça:**
 
-1. **RX 11 De-click** — Sensitivity `1.5`
-2. **bx_cleansweep V2** — HPF @ 250 Hz
-3. **TDR Nova**
-   - Cut 4–5 kHz: `-2 dB` if harsh
-   - Optional boost 12–14 kHz: `+2 dB` (air)
-4. **FerricTDS** — Drive: `+1.0 dB`
+* Add **Overheads last** to avoid masking in fast rhythms.
+* After drums, lock in **bass** for groove foundation before guitars & vocals.
+* Always **A/B kick vs bass in solo** to avoid masking between 60–120 Hz.
 
 ---
 
-## 🎸 5. Guitar
+## 🔧 Track-by-Track Plugin & Parameter Guide
 
-1. **RX 11 De-click** — Sensitivity `2.0`
-2. **bx_cleansweep V2** — HPF @ 100 Hz
-3. **TDR Nova**
-   - Cut 200–300 Hz: `-2–3 dB`
-   - Boost 3–5 kHz: `+2–3 dB`
-4. **FerricTDS** — Drive: `+1.5 dB`
-5. **Stereo Touch** — Width: `50–60%`
+### 🎤 1. Vocal Lead
 
----
-
-## 🎸 6. Bass
-
-1. **RX 11 De-click** — Sensitivity `1.5`
-2. **bx_cleansweep V2** — LPF @ 5–6 kHz
-3. **TDR Nova**
-   - Boost 60–80 Hz: `+3 dB`
-   - Cut 200–300 Hz: `-2 dB`
-4. **GlueReeds1**
-   - Ratio: `4:1`
-   - Attack: `10–15 ms`
-   - Release: `100–120 ms`
-   - GR: `~ -4 dB`
+1. *RX 11 De-click* — Sens: `3.0`, Single-band
+2. *bx\_cleansweep V2* — HPF @ `80 Hz`
+3. *SPITFISH* — Sense: `5–6`, Tune `6–7 kHz`
+4. *TDR Nova* — HPF `80 Hz`, Cut `250–400 Hz` `-2 to -4 dB`, Boost `12 kHz` `+1–2 dB`
+5. *GlueReeds1* — Ratio `3:1`, Attack `25 ms`, Release `120 ms`, GR `~ -3 dB`
+6. *OrilRiver* (send) — Pre-delay `20 ms`, Decay `1.2 s`, Wet `15–20%`
+7. *Stereo Touch* (optional) — Width `40–50%`
 
 ---
 
-## 🎚️ Master Bus (Album Reference)
+### 🥁 2. Kick
 
-1. **FerricTDS** — Drive: `+1.0 dB`
-2. **TDR Nova** — Gentle tonal balance (±2 dB max)
-3. **LoudMax**
-   - Output: `-1 dBTP`
-   - Threshold: adjust to LUFS target:
-     - Streaming: `-14 LUFS`
-     - Live/Energetic: `-9 LUFS`
-4. **Youlean Loudness Meter** — Check loudness compliance
+1. *RX 11 De-click* — Sens: `2.0`
+2. *bx\_cleansweep V2* — LPF @ `8 kHz`
+3. *TDR Nova* — Boost `60–80 Hz` `+3–4 dB`, Cut `250 Hz` `-2–3 dB`, opt. Boost `3–4 kHz`
+4. *GlueReeds1* — Ratio `4:1`, Attack `15 ms`, Release `100 ms`, GR `-4 to -5 dB`
 
 ---
 
-**Tip:** Apply reverbs/delays via send tracks, keep stereo widening subtle, and ensure phase coherence when summing to mono.
+### 🥁 3. Snare
+
+1. *RX 11 De-click* — Sens: `2.0`
+2. *bx\_cleansweep V2* — HPF @ `120 Hz`
+3. *TDR Nova* — Boost `200 Hz` `+2–3 dB`, Cut `250–350 Hz` `-2 dB`, Boost `4–6 kHz` `+3–4 dB`
+4. *Transpire* — Attack `+25%`, Sustain `-10%`
+5. *FerricTDS* — Drive `+1.5–2.0 dB`
+
+---
+
+### 🥁 4. Overheads
+
+1. *RX 11 De-click* — Sens: `1.5`
+2. *bx\_cleansweep V2* — HPF @ `250 Hz`
+3. *TDR Nova* — Cut `4–5 kHz` `-2 dB` (if harsh), opt. Boost `12–14 kHz` `+2 dB`
+4. *FerricTDS* — Drive `+1.0 dB`
+
+---
+
+### 🎸 5. Bass
+
+1. *RX 11 De-click* — Sens: `1.5`
+2. *bx\_cleansweep V2* — LPF @ `5–6 kHz`
+3. *TDR Nova* — Boost `60–80 Hz` `+3 dB`, Cut `200–300 Hz` `-2 dB`
+4. *GlueReeds1* — Ratio `4:1`, Attack `10–15 ms`, Release `100–120 ms`, GR `~ -4 dB`
+
+---
+
+### 🎸 6. Guitar
+
+1. *RX 11 De-click* — Sens: `2.0`
+2. *bx\_cleansweep V2* — HPF @ `100 Hz`
+3. *TDR Nova* — Cut `200–300 Hz` `-2–3 dB`, Boost `3–5 kHz` `+2–3 dB`
+4. *FerricTDS* — Drive `+1.5 dB`
+5. *Stereo Touch* — Width `50–60%`
+
+---
+
+## 🎚️ Master Bus — Album Reference
+
+1. **FerricTDS** — Drive `+1.0 dB`
+2. **TDR Nova** — Gentle tonal balance adjustments (±2 dB max)
+3. **LoudMax** — Output `-1 dBTP`, Threshold for LUFS target:
+
+   * Streaming/YouTube: `-14 LUFS`
+   * Live/Energetic: `-9 LUFS`
+4. **Youlean Loudness Meter** — Final loudness verification
+
+---
+
+## ✅ Mix Checklist
+
+* [ ] Kick & Snare locked in first
+* [ ] Bass locked to kick (no masking at 60–120 Hz)
+* [ ] Guitars balanced against bass midrange
+* [ ] Vocals sit above instruments without harshness
+* [ ] Overheads blended last for clarity
+* [ ] Headroom maintained (\~6 dB before master)
+* [ ] Final LUFS & TP compliance checked
