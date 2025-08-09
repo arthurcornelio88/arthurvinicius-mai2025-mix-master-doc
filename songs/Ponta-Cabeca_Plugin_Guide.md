@@ -83,35 +83,35 @@ Work from **center & low frequencies** toward **highs & stereo**:
 
 1. **iZotope RX 11 De-click**
    - Sensitivity: `2.0`
-   - Removes digital clicks or small transient artifacts.
+   - Removes digital clicks and minor transient artifacts.
 
 2. **bx_cleansweep V2**
-   - HPF: `120 Hz` (remove sub rumble without thinning body)
-   - LPF: leave open, or set to ~12 kHz if cymbal bleed is harsh
+   - HPF: `120 Hz` — remove sub rumble without thinning body
+   - LPF: leave open, or set to `~12 kHz` if cymbal bleed is harsh
    - Input Gain: `0 dB`
 
 3. **TDR Nova**
-   - Boost `200 Hz`: `+2 to +3 dB` (adds warmth/body to brush texture)
-   - Cut `250–350 Hz`: `-2 dB` (reduces muddiness from the shell)
-   - Boost `4–6 kHz`: `+3 to +4 dB` (enhances brush swipe definition)
-   - Optional: gentle boost at `10–12 kHz` for extra air if needed
+   - Boost `200 Hz`: `+2 to +3 dB` — adds warmth and body to brush texture
+   - Cut `250–350 Hz`: `-2 dB` — reduces shell muddiness
+   - Boost `4–6 kHz`: `+3 to +4 dB` — enhances brush swipe definition
+   - *(Optional)* Boost `10–12 kHz` gently for extra air if needed
 
-4. **Transpire** (Transient Shaper)
-   - Attack: `+20 to +25%` (adds articulation without making it too “stick-like”)
-   - Sustain: `-10%` (reduces excess ring and room bleed)
+4. **Transpire** *(Transient Shaper)*
+   - Attack: `+20 to +25%` — adds articulation without making it too “stick-like”
+   - Sustain: `-10%` — reduces excess ring and room bleed
 
 5. **FerricTDS**
    - Drive: `+1.5 to +2.0 dB`
-   - Recovery: medium-slow to keep natural decay
+   - Recovery: Medium-slow — preserves natural decay
    - Adds tape-like warmth and cohesion
 
-6. **ReaComp** (Optional peak control)
-- Threshold: ajuster pour que les pics déclenchent ~2–3 dB de réduction
-- Ratio: `3:1`
-- Attack: `10 ms` (assez rapide pour attraper les pics, mais pas trop pour garder le naturel)
-- Release: `80–100 ms`
-- Knee: `2 dB` (soft knee pour éviter l’écrasement brutal)
-- Output Gain: ajuster pour correspondre au niveau pré-compression
+6. **(Optional) ReaComp — Peak Control**
+   - Threshold: Adjust so peaks trigger `~2–3 dB` gain reduction
+   - Ratio: `3:1`
+   - Attack: `10 ms` — catches peaks without killing transients
+   - Release: `80–100 ms`
+   - Knee: `2 dB` — soft knee for smooth onset
+   - Output Gain: Match pre-compression loudness
 
 ---
 
