@@ -50,10 +50,25 @@ Work from **center & low frequencies** toward **highs & stereo**:
 
 ### 🥁 2. Kick
 
-1. *RX 11 De-click* — Sens: `2.0`
-2. *bx\_cleansweep V2* — LPF @ `8 kHz`
-3. *TDR Nova* — Boost `60–80 Hz` `+3–4 dB`, Cut `250 Hz` `-2–3 dB`, opt. Boost `3–4 kHz`
-4. *GlueReeds1* — Ratio `4:1`, Attack `15 ms`, Release `100 ms`, GR `-4 to -5 dB`
+1. **iZotope RX 11 De-click**
+   - Sensitivity: `2.0`
+
+2. **bx_cleansweep V2**
+   - **HPF**: `20 Hz` (remove unnecessary sub-bass)
+   - **LPF**: `8 kHz` (remove unwanted highs and leave space for cymbals)
+   - Input Gain: `0 dB` (adjust if needed)
+
+3. **TDR Nova**
+   - Boost `60–80 Hz`: `+3 to +4 dB` (kick fundamental)
+   - Cut `250 Hz`: `-2 to -3 dB` (reduce muddiness)
+   - Optional: Boost `3–4 kHz` for more click/presence
+
+4. **GlueReeds1** (compression)
+   - Ratio: `4:1`
+   - Attack: `15 ms`
+   - Release: `100 ms`
+   - Gain Reduction: `-4 to -5 dB`
+
 
 ---
 
