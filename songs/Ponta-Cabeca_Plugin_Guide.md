@@ -144,12 +144,81 @@ Work from **center & low frequencies** toward **highs & stereo**:
 
 ---
 
-### 🎸 5. Bass
+Here’s a refined markdown version for your funky, articulated bass with both GlueReeds1 and ReaComp included.
 
-1. *RX 11 De-click* — Sens: `1.5`
-2. *bx\_cleansweep V2* — LPF @ `5–6 kHz`
-3. *TDR Nova* — Boost `60–80 Hz` `+3 dB`, Cut `200–300 Hz` `-2 dB`
-4. *GlueReeds1* — Ratio `4:1`, Attack `10–15 ms`, Release `100–120 ms`, GR `~ -4 dB`
+---
+
+Got it — here’s the bass section in markdown without **GlueReeds1**, using only RX 11, bx\_cleansweep, TDR Nova, and ReaComp for peak control.
+
+---
+
+### 🎸 5. Bass (Funky, Articulated — Slaps + Mixed Note Lengths)
+
+1. **iZotope RX 11 De-click**
+
+   * Sensitivity: `1.5`
+   * Cleans up string noise, click artifacts, and slap transients.
+
+2. **bx\_cleansweep V2**
+
+   * LPF: `5–6 kHz` (remove unnecessary highs while keeping slap clarity)
+
+3. **TDR Nova**
+
+   * Boost `60–80 Hz`: `+3 dB` (solid low-end presence)
+   * Cut `200–300 Hz`: `-2 dB` (reduce mud)
+   * Optional: gentle boost `1–2 kHz` for finger and slap definition
+
+4. **ReaComp** *(Main Compression & Peak Control)*
+
+   * Threshold: set so normal notes trigger \~2–3 dB reduction, and slaps go a bit higher
+   * Ratio: `3:1`
+   * Attack: `5–10 ms` (lets slap attack through)
+   * Release: `80–100 ms` (returns to zero between notes)
+   * Knee: `2 dB` (smooth onset)
+   * Output Gain: adjust to match pre-compression loudness
+
+Perfect — here’s your **Kick & Bass Gain Balance** subsection in markdown, ready to paste into your reference doc under your bass section.
+
+---
+
+#### 🎯 Low-End Gain Balance — Kick + Bass “Lock”
+
+The goal: keep the **kick and bass working together** without masking each other in the 60–120 Hz range.
+
+1. **Set Kick First**
+
+   * Solo the kick.
+   * Adjust fader so **peak is around -6 dBFS** during the loudest hits.
+   * Ensure it has enough punch without triggering the master above -6 dBFS.
+
+2. **Bring in the Bass**
+
+   * Solo **kick + bass** together.
+   * Start with bass fader all the way down, then slowly bring it up until:
+
+     * Low-end feels full and solid.
+     * Kick still cuts clearly through.
+
+3. **A/B Check**
+
+   * **Mute bass** → listen to kick clarity.
+   * **Mute kick** → listen to bass body.
+   * Together, they should **complement** each other — not sound like one muddy blob.
+
+4. **EQ Carving**
+
+   * Kick: emphasize **60–80 Hz**, reduce **250 Hz** (mud).
+   * Bass: keep **60–80 Hz** full but cut slightly where kick is strongest, boost **1–2 kHz** for note definition.
+
+5. **Mono Compatibility**
+
+   * Check in mono — low-end should stay stable and not disappear.
+
+6. **Final Peak Targets**
+
+   * Kick: peaks around **-6 dBFS**
+   * Bass: peaks around **-8 dBFS** when soloed, but **combined low-end peaks** should still leave \~6 dB headroom on the master bus.
 
 ---
 
