@@ -214,11 +214,49 @@ The goal: keep the **kick and bass working together** without masking each other
 
 ### 🎸 6. Guitar
 
-1. *RX 11 De-click* — Sens: `2.0`
-2. *bx\_cleansweep V2* — HPF @ `100 Hz`
-3. *TDR Nova* — Cut `200–300 Hz` `-2–3 dB`, Boost `3–5 kHz` `+2–3 dB`
-4. *FerricTDS* — Drive `+1.5 dB`
-5. *Stereo Touch* — Width `50–60%`
+1. **iZotope RX 11 De-click**
+
+   * Sensitivity: `2.0`
+   * Removes handling noise and small digital clicks.
+
+2. **bx\_cleansweep V2**
+
+   * HPF: `100 Hz` (removes unnecessary low-end rumble)
+   * LPF: leave open, or roll off gently at `12–14 kHz` if there’s harsh pick noise.
+
+3. **TDR Nova**
+
+   * Cut `200–300 Hz`: `-2 to -3 dB` (reduces muddiness)
+   * Boost `3–5 kHz`: `+2 to +3 dB` (adds presence for rhythmic definition)
+   * Optional: small lift at `8–10 kHz` for extra shimmer if arrangement allows.
+
+4. **FerricTDS**
+
+   * Drive: `+1.5 dB` for warmth and cohesion.
+   * Recovery: medium to preserve natural sustain.
+
+5. **Stereo Touch** *(optional)*
+
+   * Width: `50–60%` for a slightly larger stereo image without phase issues.
+
+6. **Reverb** *(optional for space — send, not insert)*
+
+   * **OrilRiver** small room or plate.
+   * Pre-delay: `10–15 ms` (keeps attack clean)
+   * Decay: `0.8–1.2 s` (short enough for fast music)
+   * Wet: `10–15%` (just enough to take away dryness)
+
+7. **Chorus** *(optional, for texture — sparingly)*
+
+   * Use on duplicated guitar track at low mix level (\~10–15%).
+   * Depth: low to moderate, Rate: slow (\~0.25–0.5 Hz).
+   * Blend subtly so it’s felt, not heard.
+
+---
+
+If you want, I can add **two quick guitar “space” presets** — one for subtle plate reverb, one for light chorus — so you can toggle them on/off in Reaper depending on the part.
+Want me to prepare those?
+
 
 ---
 
@@ -236,8 +274,8 @@ The goal: keep the **kick and bass working together** without masking each other
 
 ## ✅ Mix Checklist
 
-* [ ] Kick & Snare locked in first
-* [ ] Bass locked to kick (no masking at 60–120 Hz)
+* [X] Kick & Snare locked in first
+* [X] Bass locked to kick (no masking at 60–120 Hz)
 * [ ] Guitars balanced against bass midrange
 * [ ] Vocals sit above instruments without harshness
 * [ ] Overheads blended last for clarity
