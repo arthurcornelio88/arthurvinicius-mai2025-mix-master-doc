@@ -60,7 +60,7 @@ Here’s an updated, more precise version in **markdown**, optimized for your se
 
 **1. Bus Compression — *Glue & Control***
 
-* **Plugin**: GlueReeds1 *(or ReaComp if you prefer)*
+* **Plugin**: ReaComp
 * **Ratio**: `2:1`
 * **Attack**: `30 ms` *(lets transients through)*
 * **Release**: `100–150 ms` *(musical recovery)*
