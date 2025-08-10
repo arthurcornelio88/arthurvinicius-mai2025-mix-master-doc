@@ -36,15 +36,54 @@ Work from **center & low frequencies** toward **highs & stereo**:
 
 ## 🔧 Track-by-Track Plugin & Parameter Guide
 
+Here’s your vocal chain written exactly in that style:
+
+---
+
 ### 🎤 1. Vocal Lead
 
-1. *RX 11 De-click* — Sens: `3.0`, Single-band
-2. *bx\_cleansweep V2* — HPF @ `80 Hz`
-3. *SPITFISH* — Sense: `5–6`, Tune `6–7 kHz`
-4. *TDR Nova* — HPF `80 Hz`, Cut `250–400 Hz` `-2 to -4 dB`, Boost `12 kHz` `+1–2 dB`
-5. *GlueReeds1* — Ratio `3:1`, Attack `25 ms`, Release `120 ms`, GR `~ -3 dB`
-6. *OrilRiver* (send) — Pre-delay `20 ms`, Decay `1.2 s`, Wet `15–20%`
-7. *Stereo Touch* (optional) — Width `40–50%`
+**iZotope RX 11 De-click**
+
+* **Sensitivity:** `3.0`
+* **Mode:** Single-band
+* Removes mouth clicks and small transient artifacts before any tone shaping.
+
+**bx\_cleansweep V2**
+
+* **HPF:** `80 Hz` (removes low rumble and plosives)
+* **LPF:** leave open unless there’s harshness above 15 kHz.
+
+**SPITFISH De-Esser** *(placed before EQ)*
+
+* **Sense:** `5–6` (moderate detection)
+* **Tune:** `6–7 kHz` (targets sibilance range)
+* **Depth:** adjust to taste — aim for smooth “S” control without dullness
+* Placing before EQ ensures raw sibilance is tamed before boosts/compression.
+
+**TDR Nova (EQ shaping)**
+
+* **HPF:** `80 Hz` (gentle slope)
+* **Cut 250–400 Hz:** `-2 to -4 dB` (reduces muddiness)
+* **Boost 12 kHz:** `+1–2 dB` (adds air and clarity)
+
+**ReaComp (Compression)**
+
+* **Threshold:** set so peaks get around `-3 dB` gain reduction
+* **Ratio:** `3:1`
+* **Attack:** `25 ms` (lets initial consonants through)
+* **Release:** `120 ms` (smooth recovery)
+* **Knee:** `2 dB` (soft knee for natural onset)
+* **Output Gain:** adjust so volume matches pre-compression loudness
+
+**OrilRiver (Reverb Send)**
+
+* **Pre-delay:** `20 ms` (keeps vocal upfront)
+* **Decay:** `1.2 s` (medium space)
+* **Wet:** `15–20%` (subtle ambience, avoid washing out)
+
+**Stereo Touch (Optional widening)**
+
+* **Width:** `40–50%` (gentle stereo spread, watch for phase issues in mono)
 
 ---
 
