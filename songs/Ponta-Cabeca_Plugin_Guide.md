@@ -339,8 +339,8 @@ The goal: keep the **kick and bass working together** without masking each other
 
 * [X] Kick & Snare locked in first
 * [X] Bass locked to kick (no masking at 60–120 Hz)
-* [ ] Guitars balanced against bass midrange
-* [ ] Vocals sit above instruments without harshness
-* [ ] Overheads blended last for clarity
-* [ ] Headroom maintained (\~6 dB before master)
+* [X] Guitars balanced against bass midrange
+* [X] Vocals sit above instruments without harshness
+* [X] Overheads blended last for clarity
+* [X] Headroom maintained (\~6 dB before master)
 * [ ] Final LUFS & TP compliance checked
