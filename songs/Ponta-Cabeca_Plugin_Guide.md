@@ -81,9 +81,16 @@ Here’s your vocal chain written exactly in that style:
 * **Decay:** `1.2 s` (medium space)
 * **Wet:** `15–20%` (subtle ambience, avoid washing out)
 
-**Stereo Touch (Optional widening)**
+**Stereo Touch** *(Optional – Vocal Width Enhancement)*
 
-* **Width:** `40–50%` (gentle stereo spread, watch for phase issues in mono)
+* **Delay 1**: `8–10 ms` *(shorter than guitar to keep vocal more centered)*
+* **Delay 1 Gain**: `-6 dB`
+* **Delay 2**: `14–16 ms`
+* **Delay 2 Gain**: `-6 dB`
+* **HPF Enable**: On — HPF at `120 Hz` *(keeps low-end mono for clarity)*
+* **LPF Enable**: On — LPF at `12–14 kHz` *(prevents excessive air spreading)*
+* **Out Gain**: Adjust so output matches bypass level *(≈ -6 dB)*
+* **Result**: Adds gentle stereo width (\~40–50%) to vocals while preserving a strong mono image for clarity and avoiding phase issues in the mix.
 
 ---
 
