@@ -60,6 +60,19 @@ Here’s your vocal chain written exactly in that style:
 * **Depth:** adjust to taste — aim for smooth “S” control without dullness
 * Placing before EQ ensures raw sibilance is tamed before boosts/compression.
 
+**🎛 Graillon 2/3 Free — Vocal Pitch Correction Setup (Subtle Mode)**
+
+* **Key Selector**: Set to your song key (turn off unused notes by clicking them) — this makes correction faster and more natural.
+* **Correction Amount**: `30–50%` → keeps pitch stable but avoids robotic tone.
+* **Smooth**: `5.0–10 ms` → softens pitch transitions so it doesn’t “jump.”
+* **Inertia**: `20–30%` → helps keep long notes stable without over-snapping.
+* **Snap Min**: `0.00 st`
+* **Snap Max**: `8.00 st` (default, keeps wide range if note is off)
+* **Formants**: `100%` (preserves natural vocal timbre — no chipmunk effect).
+* **Pitch Shift**: Leave at `0.00 st` (don’t use for correction — only for creative shifts).
+* **Wet/Dry**: Wet at `0 dB` and Dry at `-inf dB` → fully corrected signal only.
+* **Gain**: Adjust so Graillon’s output matches bypass level (watch meters).
+
 **TDR Nova (EQ shaping)**
 
 * **HPF:** `80 Hz` (gentle slope)
