@@ -235,9 +235,17 @@ The goal: keep the **kick and bass working together** without masking each other
    * Drive: `+1.5 dB` for warmth and cohesion.
    * Recovery: medium to preserve natural sustain.
 
-5. **Stereo Touch** *(optional)*
+5. **Stereo Touch** *(Optional – Guitar Stereo Enhancement)*
 
-   * Width: `50–60%` for a slightly larger stereo image without phase issues.
+   - **Delay 1:** `12–15 ms`
+   - **Delay 1 Gain:** `-6 dB`
+   - **Delay 2:** `18–20 ms`
+   - **Delay 2 Gain:** `-6 dB`
+   - **HPF Enable:** `On` — HPF at `120 Hz` (keeps low-end mono)
+   - **LPF Enable:** `Off` — preserves high-end sparkle
+   - **Out Gain:** Adjust so output matches bypass level (≈ `-6 dB`)
+
+   **Result:** Creates a balanced `50–60%` stereo width without introducing phase problems, keeping the guitar spacious but controlled in the mix.
 
 6. **Reverb** *(optional for space — send, not insert)*
 
