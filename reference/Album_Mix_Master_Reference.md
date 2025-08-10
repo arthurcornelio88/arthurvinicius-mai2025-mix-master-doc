@@ -88,16 +88,29 @@ Here’s an updated, more precise version in **markdown**, optimized for your se
 * **Recovery**: Medium
 * Purpose: Adds light harmonic content and “rounds” transients without audible distortion.
 
----
-
 **4. Limiting — *Final Loudness & Safety***
 
-* **Plugin**: LoudMax
-* **Output Ceiling**: `-1.0 dB` (True Peak safe)
-* **Threshold**: Adjust until target loudness is reached (`-14 LUFS` for streaming, `-9 to -8 LUFS` for louder pop/rock).
-* Aim for no more than **3–4 dB of gain reduction** here.
+* **Output**: `-1.0 dB`
 
----
+  * Keeps True Peak safe for streaming (Spotify, YouTube, Apple Music).
+
+* **Threshold**: adjust until your **Youlean Loudness Meter** shows your target LUFS:
+
+  * `-14 LUFS` → good for streaming without normalization penalties.
+  * `-9 to -8 LUFS` → modern pop/rock loud, but with less dynamic range.
+
+* **Link**: **On** (so L/R stay balanced).
+
+* **Target Gain Reduction**: ideally `2–4 dB` max on peaks.
+
+  * If you’re hitting `6 dB+` regularly, back off — it will squash transients too much.
+
+**Example workflow**:
+
+1. Set **Output** first (`-1.0 dB`).
+2. Play your loudest section.
+3. Lower **Threshold** until the integrated LUFS hits your target.
+4. Verify with Youlean that **True Peak** never exceeds `-1 dB`.
 
 **5. Loudness Check — *Final Verification***
 
