@@ -60,7 +60,7 @@ Here’s your vocal chain written exactly in that style:
 * **Depth:** adjust to taste — aim for smooth “S” control without dullness
 * Placing before EQ ensures raw sibilance is tamed before boosts/compression.
 
-**🎛 Graillon 2/3 Free — Vocal Pitch Correction Setup (Subtle Mode)**
+**Graillon 2/3 Free — Vocal Pitch Correction Setup (Subtle Mode)**
 
 * **Key Selector**: Set to your song key (turn off unused notes by clicking them) — this makes correction faster and more natural.
 * **Correction Amount**: `30–50%` → keeps pitch stable but avoids robotic tone.
