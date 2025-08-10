@@ -247,24 +247,20 @@ The goal: keep the **kick and bass working together** without masking each other
 
    **Result:** Creates a balanced `50–60%` stereo width without introducing phase problems, keeping the guitar spacious but controlled in the mix.
 
-6. **Reverb** *(optional for space — send, not insert)*
+### 🎸 6. Reverb *(optional — send, not insert)*
 
-   * **OrilRiver** small room or plate.
-   * Pre-delay: `10–15 ms` (keeps attack clean)
-   * Decay: `0.8–1.2 s` (short enough for fast music)
-   * Wet: `10–15%` (just enough to take away dryness)
-
-7. **Chorus** *(optional, for texture — sparingly)*
-
-   * Use on duplicated guitar track at low mix level (\~10–15%).
-   * Depth: low to moderate, Rate: slow (\~0.25–0.5 Hz).
-   * Blend subtly so it’s felt, not heard.
-
----
-
-If you want, I can add **two quick guitar “space” presets** — one for subtle plate reverb, one for light chorus — so you can toggle them on/off in Reaper depending on the part.
-Want me to prepare those?
-
+- **Plugin:** OrilRiver *(Small Room or Plate)*
+- **Routing:**
+  - Guitar track → Send to *Reverb Bus*
+  - On *Reverb Bus*: **Dry = -inf**, **Wet = ~-12 dB**
+  - Raise *Reverb Bus* fader to taste (`-18 dB` starting point)
+- **Settings:**
+  - Pre-delay: `10–15 ms` *(keeps attack clean)*
+  - Decay: `0.8–1.2 s` *(short enough for faster tracks)*
+  - Width: `100%`
+- **Blend:**
+  - Use the **send gain** from the Guitar track to control reverb amount
+  - Keep subtle — just enough to remove dryness without washing out the part
 
 ---
 
