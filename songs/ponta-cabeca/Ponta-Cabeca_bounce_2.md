@@ -48,10 +48,10 @@ The first bounce has been reviewed, and here are the consolidated suggestions fr
 ---
 
 ## Final Checklist
-1. Fix timing: align third bass note to kick.
-2. Improve kick clarity with selective high-frequency boost.
-3. Add amp sim to bass for color and reduce its volume slightly.
-4. Add amp sim to acoustic guitar for warmth, with light EQ.
-5. Raise vocal volume slightly.
-6. Add subtle reverb to vocals, overheads, and guitar.
-7. Test shimmer reverb on the pre-final instrumental guitar section.
+[] Fix timing: align third bass note to kick.
+[] Improve kick clarity with selective high-frequency boost.
+[] Add amp sim to bass for color and reduce its volume slightly.
+[] Add amp sim to acoustic guitar for warmth, with light EQ.
+[] Raise vocal volume slightly.
+[] Add subtle reverb to vocals, overheads, and guitar.
+[] Test shimmer reverb on the pre-final instrumental guitar section.
