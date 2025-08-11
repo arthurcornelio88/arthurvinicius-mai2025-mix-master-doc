@@ -86,9 +86,63 @@ The first bounce has been reviewed, and here are the consolidated suggestions fr
 ---
 
 ## 4. Spatialization & Effects
+
 ### General Reverb
-- Add **a bit of reverb** to the **vocal mics**, **overheads**, and **guitar** to give the mix more depth; it currently feels too dry.
-- Consider a slightly **more pronounced reverb** on vocals and guitar for extra warmth and space.
+
+#### Guitar
+- Use **RC 48** in *Random Hall* mode for depth and natural space.
+- Recommended routing: place the RC 48 on a **dedicated reverb send bus** (100% wet), keep the guitar track dry for clarity.
+- Suggested RC 48 settings for guitar:
+  - Predelay: 20–25 ms (keeps the pick attack clear before reverb enters)
+  - Diffusion: 60–70% (smooth reflections)
+  - Spread: 100% (full stereo width)
+  - Shape: 40–50% (balanced attack/sustain)
+  - Size: 70–80% (large room feel)
+  - Bass: -2 dB / X-Over: ~300 Hz (avoids low-end build-up)
+  - Mid: 0 dB / Hi Cut: 7–8 kHz (natural top-end)
+  - Damp: 30–40% (slightly mellows the highs)
+- Adjust the send level for desired depth; use automation to increase reverb during special sections (e.g., instrumental break with shimmer).
+
+#### Bass
+- Apply reverb subtly to avoid muddying the low end — aim for ambience on the mids/highs only.
+- Recommended: **RC 48** in *Reverb* mode, placed on a **separate reverb send bus** (100% wet).
+- Suggested RC 48 settings for bass:
+  - Predelay: ~15 ms (maintains note definition)
+  - Diffusion: 40–50% (clearer reflections)
+  - Spread: 80% (some stereo width without losing center punch)
+  - Shape: ~40% (clear attack)
+  - Size: 50–60% (moderate room)
+  - Bass: -6 dB / X-Over: ~300–350 Hz (filters low end out of the reverb)
+  - Mid: 0 to +1 dB (slight presence if needed)
+  - Hi Cut: 6–7 kHz (avoids harshness)
+  - Damp: 40–50% (natural decay)
+- Follow the reverb with an EQ cutting all frequencies below ~200 Hz on the reverb return track.
+- Keep the reverb send low (e.g., -15 to -12 dB) so it’s felt more than heard, adding subtle space without masking the groove.
+
+#### Vocals
+- Use a combination of **short plate reverb** (for presence) and **long hall reverb** (for depth), both on separate send buses.
+- Plate reverb (short):
+  - Decay: 0.8–1.2 s
+  - Pre-delay: ~15 ms (keeps diction clear)
+  - Hi Cut: ~9–10 kHz
+  - Mix: 100% wet on send, adjust return level for subtle thickening
+- Hall reverb (long):
+  - Decay: 2–3 s
+  - Pre-delay: 20–25 ms
+  - Bass: -3 dB / X-Over: ~250 Hz (avoids low build-up)
+  - Hi Cut: ~7–8 kHz
+  - Mix: 100% wet on send, raise return for choruses or sustained notes
+
+#### Overheads
+- Use a **natural room or hall reverb** to enhance drum space without making cymbals harsh.
+- Recommended: RC 48 or Raum in Hall mode
+  - Decay: 1.5–2.2 s
+  - Pre-delay: 5–10 ms
+  - Bass: -2 to -4 dB / X-Over: ~300 Hz
+  - Hi Cut: ~12 kHz (keeps cymbals smooth)
+- Keep send levels low; the goal is to extend the natural ambience, not create a washed-out kit.
+
+
 
 ### Special Reverb (Instrumental Section)
 - In the **instrumental section before the last part**, try adding a **shimmer reverb** (e.g., Valhalla Supermassive) to the guitar to clearly mark the contrast with the sung sections and make the guitar the central focus. This is experimental — only if it works musically.
