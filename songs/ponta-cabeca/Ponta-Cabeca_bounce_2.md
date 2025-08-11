@@ -56,8 +56,8 @@ The first bounce has been reviewed, and here are the consolidated suggestions fr
     - Master: Adjust to mix
 
   - **Bass Pro Cabinet**:
-    - Room: ~30% (adds space)
-    - A/B Switch: Choose A (tighter) or B (more open) depending on the mix
+    - Room: ~60% (adds space)
+    - A/B Switch: B (more open)
 
   - **Solid EQ (post-amp)**:
     - Low Gain: Cut slightly if bass dominates
