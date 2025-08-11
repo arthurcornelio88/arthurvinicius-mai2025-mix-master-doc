@@ -170,28 +170,31 @@ Purpose: to create a larger and deeper space for choruses or atmospheric parts.
 
 ### Overheads Reverb
 
-- Use **RC 48** in *Reverb* mode on a dedicated **Overheads Reverb Bus** (100% wet).
+- Use **Oril River** on a dedicated **Overheads Reverb Bus** (100% wet).
 - Both overhead tracks send to this single bus for a coherent stereo image.
-- **Current RC 48 settings** (based on ear adjustments):
-  - Predelay: ~6–8 ms (keeps cymbal attack intact)
-  - Diffusion: ~75% (smooth tail without distinct reflections)
-  - Spread: 100% (full stereo width)
-  - Shape: ~45% (balanced attack and sustain)
-  - Size: ~45% (medium room feel, natural ambience)
-  - Bass: -6 dB (removes low build-up)
-  - X-Over: ~300–350 Hz (filters lows out of the reverb)
-  - Mid: 0 dB (neutral mid presence)
-  - Hi Cut: ~13 kHz (keeps highs smooth while preserving air)
-  - Damp: ~50% (slight high frequency damping for a natural tail)
-
-**Routing:**
-- Set the RC 48 instance to **100% wet** and control the overall amount of reverb with the bus fader.
-- EQ after the reverb bus: high-pass at ~200 Hz, optional gentle low-pass around 12–14 kHz to soften cymbals further.
-- Start send level from overhead tracks at around **-15 dB**; adjust to taste for subtle ambience.
+- **Current Oril River settings**:
+  - Pre-delay: 1.0 ms (keeps cymbal attack immediate)
+  - Early Reflection Variation: 3
+  - Reverb Variation: 2
+  - Room Size: 14.50 (medium room)
+  - Decay Time: 1.99 s (natural tail length)
+  - Damp. Int.: 80% (attenuates highs naturally)
+  - Mod. Depth: 40.60% (slight movement in tail)
+  - Diffusion: 89% (smooth tail, no discrete echoes)
+  - Hi Damp: 7542 Hz (controls top-end brightness)
+  - Mod. Speed: 0.97 Hz (slow modulation for natural movement)
+  - EQ:
+    - Low Shelf: cut below 100 Hz
+    - High Shelf: cut above 5.96 kHz (softens bright cymbal tails)
+  - Width: 100% (full stereo spread)
+- Set the plugin **Mix** to 100% wet (since it’s on a bus), control the amount with the bus fader.
+- **Post-Reverb EQ**: high-pass at ~200 Hz to remove low rumble, optional low-pass around 12–14 kHz for additional cymbal smoothing.
+- Start send level from each overhead track at around **-15 dB** and adjust for the desired ambience.
 
 **Optional Adjustments:**
-- Increase Size to ~50–55% for a slightly larger space if the overheads sound too dry.
-- Reduce Hi Cut to ~11–12 kHz if cymbals are overly bright in the tail.
+- Increase Room Size slightly for a more open space if OH tracks are very dry.
+- Reduce Hi Damp if cymbals sound too bright in the reverb tail.
+
 
 
 ### Special Reverb (Instrumental Section)
