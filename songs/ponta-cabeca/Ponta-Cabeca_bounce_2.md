@@ -68,24 +68,31 @@ The first bounce has been reviewed, and here are the consolidated suggestions fr
 
 
 ### Acoustic Guitar
-- Add an **acoustic guitar amp simulator** to enhance warmth, dynamics, and presence.
-  - **Recommended options**:
-    - **Free**:
-      - **AmpliTube 5 CS** (IK Multimedia) – includes basic but high-quality acoustic presets.
-      - **LePou Plugins** (LeCab + clean amp) – open-source, lightweight.
-    - **Paid**:
-      - **Acoustic Guitar Suite by Positive Grid** (BIAS FX 2) – detailed, realistic amp and mic emulation.
-      - **Fishman Aura Spectrum DI** (hardware/software hybrid) – professional-grade acoustic imaging.
-- Apply subtle EQ shaping after the amp sim to avoid over-coloration.
+- Use **Guitar Rig 7 – Jazz Amp** to enhance warmth, clarity, and presence while keeping a clean, dynamic tone.
+- Recommended Jazz Amp settings:
+  - Bright: ON
+  - Bass: ~11 h (avoid excessive low end)
+  - Mid: ~1 h (fills the mix, avoids scooped tone)
+  - Treble: ~12 h (enough brightness without harshness)
+  - Chorus: OFF for rhythm parts; ON with Rate ~10 h and Depth ~11 h for widened clean passages
+  - Volume: adjust to match project gain staging
+- Control Room Pro (cabinet/mic section):
+  - Bass: ~11 h
+  - Treble: ~1 h
+  - Air: ~1 h (adds a touch of distance)
+  - Experiment with SM57 + condenser blend for balanced attack and openness
+- Stereo Tune:
+  - Spread: ~20–25% (slight width without phase issues)
+  - Drift: 0
+  - Split: ~800 Hz (keeps low end mono)
+  - Mix: ~50%
+- Keep processing order: Amp → Control Room Pro → Stereo Tune (if stereo width desired) → EQ for final tonal shaping.
+- Apply subtle EQ after the amp to remove unnecessary low rumble (<80 Hz) and slightly tame high frequencies (>8 kHz) if the tone is too bright.
+
 
 ---
 
-## 3. Volume Balancing
-- Raise **vocal volume slightly** for better presence.
-
----
-
-## 4. Spatialization & Effects
+## 3. Spatialization & Effects
 
 ### General Reverb
 
@@ -155,7 +162,7 @@ The first bounce has been reviewed, and here are the consolidated suggestions fr
 * [X] Improve kick clarity with selective high-frequency boost.
 * [X] Exciter in snare drum and kick
 * [X] Add amp sim to bass for color and reduce its volume slightly.
-* [ ] Add amp sim to acoustic guitar for warmth, with light EQ.
-* [ ] Raise vocal volume slightly.
+* [X] Add amp sim to acoustic guitar for warmth, with light EQ.
+* [X] Raise vocal volume slightly.
 * [ ] Add subtle reverb to vocals, overheads, and guitar.
 * [ ] Test shimmer reverb on the pre-final instrumental guitar section.
