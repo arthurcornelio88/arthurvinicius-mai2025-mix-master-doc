@@ -343,4 +343,4 @@ The goal: keep the **kick and bass working together** without masking each other
 * [X] Vocals sit above instruments without harshness
 * [X] Overheads blended last for clarity
 * [X] Headroom maintained (\~6 dB before master)
-* [ ] Final LUFS & TP compliance checked
+* [X] Final LUFS & TP compliance checked
