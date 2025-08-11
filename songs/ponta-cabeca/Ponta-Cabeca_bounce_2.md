@@ -14,6 +14,7 @@ The first bounce has been reviewed, and here are the consolidated suggestions fr
 ### Kick Drum
 - There were difficulties in achieving kick definition due to the original drum quality.
 - Consider boosting **some higher frequencies** to make the **attack clearer** — test if it improves presence without making it harsh.
+- EQ and Exciter
 
 ### Snare Drum
 - Maybe try un **exciter** for space and dynamic differentiation.
@@ -55,7 +56,7 @@ The first bounce has been reviewed, and here are the consolidated suggestions fr
 
 * [X] Fix timing: align third bass note to kick.
 * [X] Improve kick clarity with selective high-frequency boost.
-* [ ] Exciter in snare drum
+* [X] Exciter in snare drum and kick
 * [ ] Add amp sim to bass for color and reduce its volume slightly.
 * [ ] Add amp sim to acoustic guitar for warmth, with light EQ.
 * [ ] Raise vocal volume slightly.
