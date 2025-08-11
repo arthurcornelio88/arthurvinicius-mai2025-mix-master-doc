@@ -126,29 +126,72 @@ The first bounce has been reviewed, and here are the consolidated suggestions fr
 - Follow the reverb with an EQ cutting all frequencies below ~200 Hz on the reverb return track.
 - Keep the reverb send low (e.g., -15 to -12 dB) so it’s felt more than heard, adding subtle space without masking the groove.
 
-#### Vocals
-- Use a combination of **short plate reverb** (for presence) and **long hall reverb** (for depth), both on separate send buses.
-- Plate reverb (short):
-  - Decay: 0.8–1.2 s
-  - Pre-delay: ~15 ms (keeps diction clear)
-  - Hi Cut: ~9–10 kHz
-  - Mix: 100% wet on send, adjust return level for subtle thickening
-- Hall reverb (long):
-  - Decay: 2–3 s
-  - Pre-delay: 20–25 ms
-  - Bass: -3 dB / X-Over: ~250 Hz (avoids low build-up)
-  - Hi Cut: ~7–8 kHz
-  - Mix: 100% wet on send, raise return for choruses or sustained notes
+### Vocal Reverb
 
-#### Overheads
-- Use a **natural room or hall reverb** to enhance drum space without making cymbals harsh.
-- Recommended: RC 48 or Raum in Hall mode
-  - Decay: 1.5–2.2 s
-  - Pre-delay: 5–10 ms
-  - Bass: -2 to -4 dB / X-Over: ~300 Hz
-  - Hi Cut: ~12 kHz (keeps cymbals smooth)
-- Keep send levels low; the goal is to extend the natural ambience, not create a washed-out kit.
+Use two complementary reverbs for vocals via separate send buses:
 
+#### Short Reverb – Presence / Plate Style
+Purpose: to thicken and bring the vocal forward in the mix without adding long decay.
+
+- **Plugin**: Oril River
+- **Room Size**: 10–15
+- **Decay Time**: 0.8–1.2 s
+- **Pre-delay**: 15–20 ms (keeps syllable attack clear)
+- **Diffusion**: 70–80% (smooth response)
+- **Damp. Int.**: 70–80% (attenuates highs in the tail)
+- **Hi Damp**: 10–12 kHz
+- **Width**: 100% stereo
+- **EQ**:
+  - Low Shelf: cut below 150–200 Hz
+  - High Shelf: soft cut above 8–9 kHz
+- **Mix**: 100% wet on send bus, control amount with bus fader.
+
+#### Long Reverb – Depth / Hall Style
+Purpose: to create a larger and deeper space for choruses or atmospheric parts.
+
+- **Plugin**: Oril River
+- **Room Size**: 25–35
+- **Decay Time**: 2.5–3.5 s
+- **Pre-delay**: 20–25 ms (maintains intelligibility)
+- **Diffusion**: 80–90% (dense tail)
+- **Damp. Int.**: 60–70% (slightly brighter than short reverb)
+- **Hi Damp**: 7–8 kHz
+- **Width**: 100% stereo
+- **EQ**:
+  - Low Shelf: cut below 200 Hz
+  - High Shelf: gentle cut above 7–8 kHz
+- **Mix**: 100% wet on send bus, raise during refrains or sustained notes.
+
+**Routing Tip**:
+- Keep the **Short Reverb** bus active throughout the track for cohesion.
+- Automate the **Long Reverb** send or bus fader to add depth only when needed.
+- Both reverbs can run in parallel for a blend of intimacy and spaciousness.
+
+
+### Overheads Reverb
+
+- Use **RC 48** in *Reverb* mode on a dedicated **Overheads Reverb Bus** (100% wet).
+- Both overhead tracks send to this single bus for a coherent stereo image.
+- **Current RC 48 settings** (based on ear adjustments):
+  - Predelay: ~6–8 ms (keeps cymbal attack intact)
+  - Diffusion: ~75% (smooth tail without distinct reflections)
+  - Spread: 100% (full stereo width)
+  - Shape: ~45% (balanced attack and sustain)
+  - Size: ~45% (medium room feel, natural ambience)
+  - Bass: -6 dB (removes low build-up)
+  - X-Over: ~300–350 Hz (filters lows out of the reverb)
+  - Mid: 0 dB (neutral mid presence)
+  - Hi Cut: ~13 kHz (keeps highs smooth while preserving air)
+  - Damp: ~50% (slight high frequency damping for a natural tail)
+
+**Routing:**
+- Set the RC 48 instance to **100% wet** and control the overall amount of reverb with the bus fader.
+- EQ after the reverb bus: high-pass at ~200 Hz, optional gentle low-pass around 12–14 kHz to soften cymbals further.
+- Start send level from overhead tracks at around **-15 dB**; adjust to taste for subtle ambience.
+
+**Optional Adjustments:**
+- Increase Size to ~50–55% for a slightly larger space if the overheads sound too dry.
+- Reduce Hi Cut to ~11–12 kHz if cymbals are overly bright in the tail.
 
 
 ### Special Reverb (Instrumental Section)
@@ -164,5 +207,5 @@ The first bounce has been reviewed, and here are the consolidated suggestions fr
 * [X] Add amp sim to bass for color and reduce its volume slightly.
 * [X] Add amp sim to acoustic guitar for warmth, with light EQ.
 * [X] Raise vocal volume slightly.
-* [ ] Add subtle reverb to vocals, overheads, and guitar.
+* [X] Add subtle reverb to vocals, overheads, and guitar.
 * [ ] Test shimmer reverb on the pre-final instrumental guitar section.
