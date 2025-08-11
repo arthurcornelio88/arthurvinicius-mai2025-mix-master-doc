@@ -15,6 +15,10 @@ The first bounce has been reviewed, and here are the consolidated suggestions fr
 - There were difficulties in achieving kick definition due to the original drum quality.
 - Consider boosting **some higher frequencies** to make the **attack clearer** — test if it improves presence without making it harsh.
 
+### Snare Drum
+- Maybe try un **exciter** for space and dynamic differentiation.
+- If not good, just config the compressor
+
 ### Bass
 - The bass is lacking a bit of color — try adding an **amp simulator** (e.g., SVT or Bassman).
 - Lower the **bass volume slightly** in the mix.
