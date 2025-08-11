@@ -55,6 +55,7 @@ The first bounce has been reviewed, and here are the consolidated suggestions fr
 
 * [X] Fix timing: align third bass note to kick.
 * [X] Improve kick clarity with selective high-frequency boost.
+* [ ] Exciter in snare drum
 * [ ] Add amp sim to bass for color and reduce its volume slightly.
 * [ ] Add amp sim to acoustic guitar for warmth, with light EQ.
 * [ ] Raise vocal volume slightly.
