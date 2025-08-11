@@ -12,5 +12,10 @@
   - On **Bass Pro** or SansAmp, slightly turn the Mid knob counterclockwise and reduce Drive to minimize harsh harmonics.
 - Preserve warmth and body between 80–120 Hz for groove, ensuring the low end remains tight and controlled.
 - Consider using a darker cabinet IR (e.g., Ampeg 1x15) to reduce metallic resonance while keeping attack definition.
+- ReaComp adjusted
+
+## General
+
+Overview in EQ Nova in master, for separate bass and kick, etc.
 
 ---
